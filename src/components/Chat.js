@@ -39,7 +39,7 @@ const Chat = () => {
       {receivers?
       <div>
         <div className='flex pl-5 pb-3 pt-2 border-bottom shadow-sm'>
-        <img className='w-10 rounded-full h-10' src={currentReceiver.photoUrl}/>
+        <img className='w-10 object-cover rounded-full h-10' src={currentReceiver.photoUrl}/>
           <h2 className='text-2xl ml-1'>{currentReceiver.name}</h2>
         </div>
         <ul className='flex flex-col mt-3  absolute inset-0 top-12 overflow-y-scroll '>
