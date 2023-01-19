@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oumarsow2003/message-chat.git/static/css/main.be326da0.css",
-    "main.js": "/oumarsow2003/message-chat.git/static/js/main.0ed97676.js",
-    "static/js/787.d3befce1.chunk.js": "/oumarsow2003/message-chat.git/static/js/787.d3befce1.chunk.js",
-    "index.html": "/oumarsow2003/message-chat.git/index.html",
-    "main.be326da0.css.map": "/oumarsow2003/message-chat.git/static/css/main.be326da0.css.map",
-    "main.0ed97676.js.map": "/oumarsow2003/message-chat.git/static/js/main.0ed97676.js.map",
-    "787.d3befce1.chunk.js.map": "/oumarsow2003/message-chat.git/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "/message-chat/static/css/main.be326da0.css",
+    "main.js": "/message-chat/static/js/main.42d7650f.js",
+    "static/js/787.d3befce1.chunk.js": "/message-chat/static/js/787.d3befce1.chunk.js",
+    "index.html": "/message-chat/index.html",
+    "main.be326da0.css.map": "/message-chat/static/css/main.be326da0.css.map",
+    "main.42d7650f.js.map": "/message-chat/static/js/main.42d7650f.js.map",
+    "787.d3befce1.chunk.js.map": "/message-chat/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be326da0.css",
-    "static/js/main.0ed97676.js"
+    "static/js/main.42d7650f.js"
   ]
 }
