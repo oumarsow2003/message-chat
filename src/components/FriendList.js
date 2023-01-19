@@ -15,7 +15,7 @@ const FriendList = () => {
 }
   return (
     <div className='bg-white rounded w-96 flex flex-col  shadow-sm align-items-center justify-center'>
-        <
+        
         <h2 className='text-center text-3xl mb-3'>{currentUser?.displayName}</h2>
         <p className='text-center text-blue-700  cursor-pointer' onClick={logout}>Déconnexion</p>
         
