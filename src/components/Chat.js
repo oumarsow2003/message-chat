@@ -42,7 +42,7 @@ const Chat = () => {
         <img className='w-10 object-cover rounded-full h-10' src={currentReceiver.photoUrl}/>
           <h2 className='text-2xl ml-1'>{currentReceiver.name}</h2>
         </div>
-        <ul className='flex flex-col mt-3  absolute inset-0 top-12 overflow-y-scroll '>
+        <ul className='flex flex-col mt-3 mb-12 absolute inset-0 top-12 overflow-y-scroll '>
           {msg_list}
         </ul>
         <SendMessage/>
