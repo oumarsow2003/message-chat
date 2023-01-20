@@ -21,10 +21,10 @@ const Search = () => {
         });
         return () => unsubscribe();
       }, []);
-    const userFoundedList = foundUsers?.map(user=>(
+    const userFoundedList = foundUsers?.filter(user=>user.name!=currentUser.displayName).map(user=>(
         <li key={user.uid} 
             onClick = {()=>{window.localStorage.setItem("currentReceiver",JSON.stringify(user))}}
-            className=" flex justify-between   pr-2 mt-2 r h-10 pl-2 pt-2 bg-gray-10">
+            className=" flex   pr-2 mt-2  h-10 pl-2 pt-2 bg-gray-10">
               <img className='mr-2 object-cover rounded-full  w-8 h-8' src={user.photoUrl} alt=""/>
                 {user.name}
 
